@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  width: 100%;
+  justify-content: center;
+  background-color: #f7e7d5;
+  display: flex;
+}
+#app {
+  display: flex;
+}
+.icones {
+  width: 100px;
+}
