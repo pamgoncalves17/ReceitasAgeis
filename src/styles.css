@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
   width: 100%;
   justify-content: center;
-  background-color: #fffbf7;
+  background-color: #ffe1c6;
   display: flex;
 }
 h1 {
@@ -11,7 +11,7 @@ h1 {
 #app {
   display: flex;
   flex-direction: column;
-  background-color: #f7e7d5;
+  background-color: #ffe1c6;
   width: 80%;
 }
 .header {
@@ -45,12 +45,15 @@ h3 {
   justify-content: center;
 }
 .conteudo-img {
+  margin: 0;
+  padding: 0;
 }
+
 .conteudo {
-  margin: 15%;
+  margin: 5%;
   background-color: #fcc89f;
   border-radius: 8px;
-  padding: 30px;
+  padding: 50px;
 }
 .icones {
   width: 100px;
