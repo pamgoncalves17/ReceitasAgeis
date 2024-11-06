@@ -2,11 +2,55 @@ body {
   font-family: sans-serif;
   width: 100%;
   justify-content: center;
-  background-color: #f7e7d5;
+  background-color: #fffbf7;
   display: flex;
+}
+h1 {
+  color: rgb(153, 73, 11);
 }
 #app {
   display: flex;
+  flex-direction: column;
+  background-color: #f7e7d5;
+  width: 80%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.pesquisa {
+  display: flex;
+  justify-content: center;
+  background-color: #fcc89f;
+  margin: 8%;
+  padding: 8px;
+  border-radius: 24px;
+}
+.pesquisa input {
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.pesquisa img {
+  width: 40px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+}
+.conteudo-img {
+}
+.conteudo {
+  margin: 15%;
+  background-color: #fcc89f;
+  border-radius: 8px;
+  padding: 30px;
 }
 .icones {
   width: 100px;
