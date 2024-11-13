@@ -45,12 +45,18 @@ h3 {
   justify-content: center;
 }
 .conteudo-img {
-  margin: 0;
+  margin: 1%;
   padding: 0;
+  justify-content: center;
+}
+.conteudo-img img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
 }
 
 .conteudo {
-  margin: 5%;
+  margin: 1%;
   background-color: #fcc89f;
   border-radius: 8px;
   padding: 50px;
